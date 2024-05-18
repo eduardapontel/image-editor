@@ -21,7 +21,7 @@ This is a simple Node.js program that resizes and compresses images using the `s
 3. Run the following command to install the necessary packages:
 
    ```sh
-   npm install sharp compress-images
+      npm install sharp compress-images
 
 ## Usage
 
