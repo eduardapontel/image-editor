@@ -44,3 +44,7 @@ node image-editor.js ./input/image.jpg 800 90
 ```
 
 This will resize the image image.jpg to a width of 800 pixels and rotate it by 90 degrees. The resized image will be saved to ./temp/output_resize.jpg and then compressed to ./compressed/.
+
+## How to Contribute
+
+If you encounter any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
