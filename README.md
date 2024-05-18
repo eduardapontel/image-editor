@@ -34,3 +34,9 @@ To use the image editor, run the following command in your terminal:
 - &lt;width&gt;: The new width of the image.
 
 - [rotate] (optional): The degree to rotate the image. If not provided, the default is 0.
+
+## Example
+
+      node image-editor.js ./input/image.jpg 800 90
+
+This will resize the image image.jpg to a width of 800 pixels and rotate it by 90 degrees. The resized image will be saved to ./temp/output_resize.jpg and then compressed to ./compressed/.
