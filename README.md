@@ -7,7 +7,6 @@ This is a simple Node.js program that resizes and compresses images using the `s
 - Resize images to a specified width.
 - Rotate images by a specified degree.
 - Compress images using various compression engines.
-- Automatically delete the original image after compression.
 
 ## Prerequisites
 
@@ -32,11 +31,11 @@ To use the image editor, run the following command in your terminal:
 node image-editor.js <input-file-path> <width> [rotate]
 ```
 
-- &lt;input-file-path&gt;: The path to the image you want to resize.
+- `<input-file-path>`: The path to the image you want to resize.
 
-- &lt;width&gt;: The new width of the image.
+- `<width>`: The new width of the image.
 
-- [rotate] (optional): The degree to rotate the image. If not provided, the default is 0.
+- `[rotate]` (optional): The degree to rotate the image. If not provided, the default is 0.
 
 ## Example
 
