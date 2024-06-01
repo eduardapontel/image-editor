@@ -28,7 +28,7 @@ npm install sharp compress-images
 To use the image editor, run the following command in your terminal:
 
 ```sh
-node image-editor.js <input-file-path> <width> [rotate]
+node app.js <input-file-path> <width> [rotate]
 ```
 
 - `<input-file-path>`: The path to the image you want to resize.
@@ -40,7 +40,7 @@ node image-editor.js <input-file-path> <width> [rotate]
 ## Example
 
 ```sh
-node image-editor.js ./input/image.jpg 800 90
+node app.js ./image.jpg 500 90
 ```
 
 This will resize the image image.jpg to a width of 800 pixels and rotate it by 90 degrees. The resized image will be saved to ./temp/output_resize.jpg and then compressed to ./compressed/.
